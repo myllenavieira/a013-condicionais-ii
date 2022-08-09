@@ -10,8 +10,8 @@ if(num % 2 === 0){
     alert('Não é divisivel por 2');
 }
 
-if(num % 2 === 0 && num % 3 === 0){
-    alert('É divisivel por 2 e 3');
+if(num % 2 === 0 || num % 3 === 0){
+    alert('É divisivel por 2 ou 3');
 }else{
-    alert('Não é divisivel por 2 e 3');
+    alert('Não é divisivel por 2 ou 3');
 }
